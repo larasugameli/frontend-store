@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LS - Store</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+
+    <nav class="navigator">
+      <a class="navigator__link navigator__link--extra" href="index.html"
+        >Tienda</a
+      >
+      <a class="navigator__link" href="Nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+      <h1>React JS</h1>
+
+      <div class="shirt">
+        <img class="shirt__image" src="img/3.jpg" alt="product image" />
+        <div class="shirt__content">
+          <p>
+            Suspendisse dignissim arcu sed malesuada laoreet.Suspendisse
+            dignissim arcu sed malesuada laoreet.
+          </p>
+          <form class="form">
+            <select class="form__ok">
+              <option disabled selected>-Select size-</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+            <input
+              class="form__ok"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input
+              class="form__submit"
+              type="submit"
+              value="Agregar al Carrito"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">LS Store - Todos los derechos Reservados 2022</p>
+    </footer>
+  </body>
+</html>
